@@ -1,8 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Open Overlay Settings</title>
+</head>
+<body>
 <script>
 window.location.href =
   "intent://#Intent;" +
-  "package=com.shexa.permissionmanager;" +
-  "action=android.intent.action.MAIN;" +
-  "category=android.intent.category.LAUNCHER;" +
+  "action=android.settings.ACTION_MANAGE_OVERLAY_PERMISSION;" +
   "end";
 </script>
+
+<p>If nothing happens, your device may not allow this action.</p>
+</body>
+</html>
